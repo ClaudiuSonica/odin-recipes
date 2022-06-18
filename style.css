@@ -5,20 +5,40 @@
     justify-content: center;
     font-style: italic;
     font-family: cursive;
+    margin: 100px auto;
 }
 
-.box {
-    background-color: rgb(158, 54, 6);
-    padding: 200px;
-    margin: 100px;
+.content {
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 0 auto;
+}
+
+img {
+    width: 350px;
+    height: 500px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
-.text {
-    font-size: 26px;
-    font-style: italic;
+.item img:hover {
+    transform: scale3d(1.05);
+    transition: all ease;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(130, 215, 150);
 }
 
 body {
-    background-color: aqua;
+    background-color: #bdf2f2;
 }
