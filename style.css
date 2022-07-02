@@ -9,9 +9,9 @@
 }
 
 .content {
-    justify-content: center;
     display: flex;
-    gap: 50px;
+    justify-content: center;
+    gap: 2.5em;
     flex-direction: row;
     align-items: center;
     font-size: 20px;
